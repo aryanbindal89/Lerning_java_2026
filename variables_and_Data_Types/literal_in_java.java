@@ -14,7 +14,8 @@ public class literal_in_java{
     //default value of decimal
       float f1 = 3.4f;
       double f2 = 3.44;
-
+    //Boolean 
+      boolean a = true;
 
     // Print Statement of all
       System.out.println(age);
@@ -24,6 +25,6 @@ public class literal_in_java{
       System.out.println(dino);
       System.out.println(age2);
       System.out.println(age3);
-      
+      System.out.println(a);
     }
 }
