@@ -18,5 +18,7 @@ public class input_in_java {
          //System.out.println(sum);
         boolean b = sc.hasNextInt();
         System.out.println(b);           
+
+        sc.close();
     }
 }
