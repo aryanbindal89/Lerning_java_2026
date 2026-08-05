@@ -1,6 +1,6 @@
 package Array_in_java;
 
-public class introduction_to_java {
+public class introduction_to_array {
     public static void main(String[] args) {
         // int [] marks = new int[5];
         int [] marks;
