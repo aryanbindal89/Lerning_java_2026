@@ -21,8 +21,10 @@ public class access_modifiers_getters_and_setters_in_Java {
     }
     public static void main(String[] args) {
         myEmploy aryan = new myEmploy();
-        aryan.id = 1;
-        aryan.name = "Aryan Agrawal";
+        aryan.setName("Code With Aryan");
+        System.out.println(aryan.getName());
+       // aryan.id = 1;
+        //aryan.name = "Aryan Agrawal";
 
     }
 }
