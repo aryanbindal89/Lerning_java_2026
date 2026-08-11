@@ -5,6 +5,11 @@ public class constructors_in_Java {
         private int id;
         private String name;
 
+        public myEmploy(){
+            id = 45;
+            name = "khushi";
+        }
+
         public String getName(){
             return name;
         }
@@ -21,6 +26,11 @@ public class constructors_in_Java {
     }
 
     public static void main(String[] args) {
-        
+        myEmploy aryan = new myEmploy();
+       /*  aryan.setName("Aryan Agrawal");
+        System.out.println(aryan.getName());
+        aryan.setID(5);*/
+        System.out.println(aryan.getID());
+        System.out.println(aryan.getName());
     }
 }
