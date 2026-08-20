@@ -20,7 +20,7 @@ public class java_Interfaces_example_and_default_methods {
          }
 
         }
-        class SmaertPhone extends Phone implements wifi, Snap{
+        class SmaertPhone{
       
     public void Snap(){
       System.out.println("Takin Snap...");
